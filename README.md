@@ -1,4 +1,4 @@
-# ESP8266 Deauther
+# Modded ESP8266 Deauther
 
 <img src='https://deauther.com/img/logo.png' alt='Deauther Logo' width='200' />
 
