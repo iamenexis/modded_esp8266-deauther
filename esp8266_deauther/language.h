@@ -39,7 +39,7 @@ extern void prntln(const uint32_t i);
 // ===== GLOBAL STRINGS ===== //
 
 // Often used characters, therefor in the RAM
-const char CURSOR              = '|';
+const char CURSOR              = '>';
 const char SPACE               = ' ';
 const char DOUBLEPOINT         = ':';
 const char EQUALS              = '=';
@@ -338,10 +338,10 @@ const char DSP_APS[] PROGMEM = "APs";
 const char DSP_STS[] PROGMEM = "STs";
 const char DSP_PKTS[] PROGMEM = "Pkts";
 const char DSP_S[] PROGMEM = "/s";
-const char DSP_SCAN_DONE[] PROGMEM = "Done";
+const char DSP_SCAN_DONE[] PROGMEM = "Done!";
 
 // ALL MENUS
-const char D_BACK[] PROGMEM = "[BACK]";
+const char D_BACK[] PROGMEM = "[<--]";
 const char D_REMOVE_ALL[] PROGMEM = "REMOVE ALL";
 const char D_SELECT[] PROGMEM = "SELECT";
 const char D_DESELECT[] PROGMEM = "DESELECT";
