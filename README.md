@@ -1,4 +1,4 @@
-# Modded ESP8266 Deauther
+# Phantom
 
 <img src='https://deauther.com/img/logo.png' alt='Deauther Logo' width='200' />
 
