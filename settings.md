@@ -41,7 +41,7 @@ SSID of access point used for the web interface (if enabled).
 The length must be between 1 and 31 characters.  
 
 ## PASSWORD
-`String password = "notaphantom";`  
+`String password = "hasbeenpwned";`  
 Password of access point used for the web interface (if enabled).  
 The length must be between 8 and 31 characters.  
 
