@@ -89,6 +89,7 @@ void DisplayUI::setup() {
         });
         addMenuNode(&mainMenu, D_CLOCK, &clockMenu); // CLOCK
 
+
 #ifdef HIGHLIGHT_LED
         addMenuNode(&mainMenu, D_LED, [this]() {     // LED
             highlightLED = !highlightLED;
@@ -805,10 +806,7 @@ void DisplayUI::drawPacketMonitor() {
 }
 
 void DisplayUI::drawIntro() {
-    drawString(0, center(str(D_INTRO_0), maxLen));
-    drawString(1, center(str(D_INTRO_1), maxLen));
-    drawString(2, center(str(D_INTRO_2), maxLen));
-    drawString(3, center(DEAUTHER_VERSION, maxLen));
+    display.drawXbm(0, 0, 128, 64, phantomlogo);
     if (scan.isScanning()) {
         if (currentTime - startTime >= screenIntroTime+4500) drawString(4, left(str(D_SCANNING_3), maxLen));
         else if (currentTime - startTime >= screenIntroTime+3000) drawString(4, left(str(D_SCANNING_2), maxLen));
