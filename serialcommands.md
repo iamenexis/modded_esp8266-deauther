@@ -33,7 +33,6 @@
 - [`set <setting> <value>`](#set)
 - [`reset`](#reset)
 - [`stop <all/scan/attack>`](#stop)
-- [`chicken`](#chicken)
 - [`reboot`](#reboot)
 - [`run <file>`](#run)
 - [`write <file> <commands>`](#write)
@@ -48,10 +47,6 @@
 - [`startap`](#startap)
 - [`stopap`](#startap)
 - [`screen mode <menu/packetmonitor/buttontest/loading>`](#screen)
-## Video Overview
-
-[![@PwnKitteh made this video about deauther 2.0 serial commands. ](https://img.youtube.com/vi/wJu7lgqelZM/0.jpg)](https://www.youtube.com/watch?v=wJu7lgqelZM)
-
 
 ## HELP
 `help`  
@@ -245,10 +240,6 @@ Stops ongoing tasks.
   - scan (-sc)
   - attack (-a)
   - script
-
-## CHICKEN
-`chicken`  
-Prints out a HUGE spacechick.  
 
 ## REBOOT
 `reboot`  
