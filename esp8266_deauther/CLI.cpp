@@ -276,7 +276,6 @@ void CLI::runCommand(String input) {
         prntln(CLI_HELP_GET);
         prntln(CLI_HELP_SET);
         prntln(CLI_HELP_RESET);
-        prntln(CLI_HELP_CHICKEN);
         prntln(CLI_HELP_REBOOT);
         prntln(CLI_HELP_INFO);
         prntln(CLI_HELP_COMMENT);
@@ -805,11 +804,6 @@ void CLI::runCommand(String input) {
         prntln(strVal);
 
         settings::setAllSettings(newSettings);
-    }
-
-    // ====== CHICKEN ===== //
-    else if (eqlsCMD(0, CLI_CHICKEN)) {
-        prntln(CLI_CHICKEN_OUTPUT);
     }
 
     // ===== STOP ===== //
