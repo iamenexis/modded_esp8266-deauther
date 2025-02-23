@@ -446,8 +446,9 @@ void DisplayUI::setup() {
     // ABOUT MENU
     createMenu(&aboutMenu, &mainMenu, [this]() {
         addMenuNode(&aboutMenu, D_ABOUT1, NULL);
-        addMenuNode(&aboutMenu, DEAUTHER_VERSION, NULL);
+        addMenuNode(&aboutMenu, D_FORDEAUTHER, NULL);
         addMenuNode(&aboutMenu, D_ABOUT2, NULL);
+        addMenuNode(&aboutMenu, DEAUTHER_VERSION, NULL);
     });
 
     // CLOCK MENU

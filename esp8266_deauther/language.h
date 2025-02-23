@@ -309,9 +309,9 @@ const char D_CLOCK_SET[] PROGMEM = "SET CLOCK";
 const char D_ABOUT[] PROGMEM = "ABOUT";
 
 // ABOUT SUBMENUS
-const char D_ABOUT1[] PROGMEM = "Phantom";
+const char D_ABOUT1[] PROGMEM = "PhantomFW";
+const char D_FORDEAUTHER[] PROGMEM = "(for deauther devices)";
 const char D_ABOUT2[] PROGMEM = "by enexis";
-
 
 // SCAN MENU
 const char D_SCAN_APST[] PROGMEM = "SCAN AP + ST";
