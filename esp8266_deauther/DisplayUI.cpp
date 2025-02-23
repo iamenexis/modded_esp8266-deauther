@@ -88,6 +88,7 @@ void DisplayUI::setup() {
             mode = DISPLAY_MODE::PACKETMONITOR;
         });
         addMenuNode(&mainMenu, D_CLOCK, &clockMenu); // CLOCK
+        addMenuNode(&mainMenu, D_ABOUT, &aboutMenu); // ABOUT
 
 
 #ifdef HIGHLIGHT_LED
@@ -440,6 +441,13 @@ void DisplayUI::setup() {
             else attack.start(beaconSelected, deauthSelected, false, probeSelected, true,
                               settings::getAttackSettings().timeout * 1000);
         });
+    });
+
+    // ABOUT MENU
+    createMenu(&aboutMenu, &mainMenu, [this]() {
+        addMenuNode(&aboutMenu, D_ABOUT1, NULL);
+        addMenuNode(&aboutMenu, DEAUTHER_VERSION, NULL);
+        addMenuNode(&aboutMenu, D_ABOUT2, NULL);
     });
 
     // CLOCK MENU

@@ -280,7 +280,7 @@ const char DSP_S[] PROGMEM = "/s";
 const char DSP_SCAN_DONE[] PROGMEM = "Done!";
 
 // ALL MENUS
-const char D_BACK[] PROGMEM = "[<--]";
+const char D_BACK[] PROGMEM = "[<=]";
 const char D_REMOVE_ALL[] PROGMEM = "REMOVE ALL";
 const char D_SELECT[] PROGMEM = "SELECT";
 const char D_DESELECT[] PROGMEM = "DESELECT";
@@ -306,6 +306,12 @@ const char D_PACKET_MONITOR[] PROGMEM = "PACKET MONITOR";
 const char D_CLOCK[] PROGMEM = "CLOCK";
 const char D_CLOCK_DISPLAY[] PROGMEM = "CLOCK DISPLAY";
 const char D_CLOCK_SET[] PROGMEM = "SET CLOCK";
+const char D_ABOUT[] PROGMEM = "ABOUT";
+
+// ABOUT SUBMENUS
+const char D_ABOUT1[] PROGMEM = "Phantom";
+const char D_ABOUT2[] PROGMEM = "by enexis";
+
 
 // SCAN MENU
 const char D_SCAN_APST[] PROGMEM = "SCAN AP + ST";

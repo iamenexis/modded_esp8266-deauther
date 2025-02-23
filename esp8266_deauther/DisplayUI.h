@@ -159,6 +159,8 @@ class DisplayUI {
         Menu attackMenu;
         Menu clockMenu;
 
+		Menu aboutMenu;
+
         Menu apListMenu;
         Menu stationListMenu;
         Menu nameListMenu;
